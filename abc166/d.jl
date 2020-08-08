@@ -7,4 +7,5 @@ function solve()
     end
 end
 
-println(solve())
+a, b = solve()
+println(a, " ", b)
