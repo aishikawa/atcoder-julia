@@ -21,9 +21,7 @@ function solve()
         for j=1:N
             jj = 0
             for s in S[j]
-                if s == 0
-                    
-                elseif s ≥ i
+                if s ≥ i
                     jj += C[j]/P[j]
                 else
                     jj += (dp[i-s] + C[j])/P[j]
